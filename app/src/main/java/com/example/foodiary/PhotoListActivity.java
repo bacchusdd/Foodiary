@@ -70,10 +70,6 @@ public class PhotoListActivity extends AppCompatActivity {
         if (cursor != null) {
             while (cursor.moveToNext()) {
                 date += cursor.getString(0);
-                //names += cursor.getString(1);
-                //bistro += cursor.getString(2);
-                //contents += cursor.getString(3);
-                //imagelink += cursor.getString(4);
             }
         }
 
@@ -83,10 +79,6 @@ public class PhotoListActivity extends AppCompatActivity {
         if (date.contains(selectedDate) == false){
             ContentValues values = new ContentValues();
             values.put("gDate", selectedDate);
-            //values.put("gName", "");
-            //values.put("gBistro", "");
-            //values.put("gContents", "");
-            //values.put("gImage", "");
 
             sqlDB.insert("groupTBL", null, values);
 

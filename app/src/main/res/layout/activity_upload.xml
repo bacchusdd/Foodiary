@@ -120,7 +120,6 @@
         android:layout_marginStart="44dp"
         android:ems="10"
         android:hint="식당명"
-
         android:layout_weight="1"
         android:scrollHorizontally="false"
         android:inputType="textMultiLine"

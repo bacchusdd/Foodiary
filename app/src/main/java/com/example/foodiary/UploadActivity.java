@@ -98,12 +98,6 @@ public class UploadActivity extends AppCompatActivity {
         bistro=binding.edit2.getText().toString();
         contents=binding.edit3.getText().toString();
         imagelink=tempFile.toString();
-        //imagelink="a";
-        //String text;
-        //text=tempFile.toString();
-        //imagelink = text.replaceAll("\\\\","/");
-        //imagelink = text.replaceAll("/","_");
-
 
         //ContentValues values = new ContentValues();
         //values.put("gDate", selectedDate);
