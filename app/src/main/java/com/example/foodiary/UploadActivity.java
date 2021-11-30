@@ -133,6 +133,9 @@ public class UploadActivity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(),"Insert", Toast.LENGTH_LONG).show();
 
         finish();
+        Intent intent = new Intent(getApplicationContext(),PhotoListActivity.class);
+        intent.putExtra("selectedDate", selectedDate);
+        startActivity(intent);
     }
 
     public void goToAlbum(View view) {
