@@ -119,10 +119,12 @@
         android:layout_height="212dp"
         android:layout_marginStart="44dp"
         android:ems="10"
-        android:hint="식당명"
+        android:hint="내용"
+
         android:layout_weight="1"
         android:scrollHorizontally="false"
         android:inputType="textMultiLine"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.214"
